@@ -1,0 +1,43 @@
+body{
+        font-family: Arial, sans-serif;
+        background-color: bisque;
+}
+
+h1{
+    color: rgb(246, 250, 247);
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
+}
+
+video{
+    height: 400px;
+    width: 400px ;
+    border-radius: 200px;
+    image-resolution: 200px;
+}
+h2{
+    color: rgb(246, 250, 247);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(24, 9, 9);
+}
+
+p{
+    color: rgb(11, 32, 16);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+h3{
+    color: rgb(1, 19, 6);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(201, 173, 173);
+}
+
+a{
+    color: rgb(18, 70, 238);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

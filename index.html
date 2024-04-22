@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Company</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <h1>Construction Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a range of construction services including:</p>
+        <ul>
+            <li>New Construction</li>
+            <li>Renovations</li>
+            <li>Interior Design</li>
+            <li>Landscaping</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Our Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Description of Project 2</p>
+        </div>
+        <!-- Add more project divs as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our construction company.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Reach out to us for inquiries or estimates.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Construction Company</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+CSS Styles (styles.css)
+css
+Copy code
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section {
+    padding: 50px;
+}
+
+section h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
